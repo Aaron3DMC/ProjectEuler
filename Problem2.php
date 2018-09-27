@@ -6,10 +6,18 @@
  * Time: 11:28
  */
 
+/**
+ *
+ * Project Euler Problem 2
+ */
+
+// Starting Values
 $x = 2;
 $y = 1;
+
 $sum = 2;
 
+// Incremental Value
 $n = 0;
 
 while ($n < 4000000)
