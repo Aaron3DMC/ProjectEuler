@@ -21,6 +21,7 @@ for ($i = 100; $i < 999; $i++)
         $y = $i * $x;
 
         // If value Y is greater than 0 and value Y can be string reversed assign value to variable
+        // Wont lie - googled for string reversing and linked me to: http://php.net/manual/en/function.strrev.php :-)
         if ($y > $palindrome && $y == strrev($y))
         {
             $palindrome = $y;
